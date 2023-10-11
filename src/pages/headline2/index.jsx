@@ -27,7 +27,7 @@ export default function Hero2() {
             className="w-[734px] h-[548px] lg:hidden block"
             width={734}
             height={548}
-            src=" https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_small.jpg"
+            src="https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_small_2x.jpg"
           />
         </div>
       </div>
