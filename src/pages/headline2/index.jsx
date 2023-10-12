@@ -6,13 +6,13 @@ export default function Hero2() {
   return (
     <section className="bg-black relative w-full lg:h-[90vh] h-[50vh]  mt-3">
       <Link className=" absolute left-0 w-full h-screen z-10" href="/"></Link>
-      <div className="top-11 h-11 text-[#1d1d1f] text-center py-14">
+      <div className="h-11 text-[#1d1d1f] text-center py-14">
         <article className="relative z-[4] flex-grow-0">
           <h2 className="text-[30px] lg:text-[56px] leading-[1.07143] font-semibold">
             iPhone 15
           </h2>
           <h3 className="text-[12px] lg:text-[28px] leading-[1.10722] font-normal mt-2">
-            Yeni tasarım. Yeni kamera. Bambaşka.
+            New camera. New design. Newphoria.
           </h3>
           <Links />
         </article>

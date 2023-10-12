@@ -6,7 +6,7 @@ export default function Hero3() {
   return (
     <section className="bg-black relative w-full lg:h-[80vh] h-[50vh]">
       <Link className=" absolute left-0 w-full h-screen z-10" href="/"></Link>
-      <div className="top-11 h-11 text-white text-center py-14">
+      <div className="h-11 text-white text-center py-14">
         <article className="relative z-[4] flex-grow-0">
           <h2 className="text-[30px] lg:text-[45px] leading-[1.07143] font-semibold text-[#f5f5f7]">
             <div className="flex items-center justify-center gap-3">
@@ -23,7 +23,7 @@ export default function Hero3() {
             SERIES 9
           </span>
           <h3 className="text-[12px] lg:text-[28px] leading-[1.10722] font-normal lg:mt-2 mt-5">
-            Titanyum. Çok güçlü. Çok hafif. Çok Pro.
+          Smarter. Brighter. Mightier.
           </h3>
           <Links />
         </article>

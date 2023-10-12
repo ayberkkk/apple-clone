@@ -7,6 +7,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'www.apple.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'is1-ssl.mzstatic.com',
+      },
     ],
   },
 }

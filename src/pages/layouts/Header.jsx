@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { mainMenu } from "../../../utils/menu";
+import { mainMenu } from "../../utils/menu";
 import { useState } from "react";
 
 export default function Header() {

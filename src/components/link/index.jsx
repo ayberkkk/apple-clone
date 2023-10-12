@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Links() {
   return (
     <>
-      <ul className="flex items-center justify-center text-[21px] mt-3 gap-7">
+      <ul className="flex items-center justify-center text-[21px] mt-3 gap-7 relative z-40">
         <li>
           <Link href="/" className="text-[10px] lg:text-xl flex items-center justify-center gap-3 text-[#2997ff] cursor-pointer hover:underline">
-            Daha fazla bilgi
+            Learn More
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -20,7 +20,7 @@ export default function Links() {
         </li>
         <li>
           <Link href="/" className="text-[10px] lg:text-xl flex items-center justify-center gap-3 text-[#2997ff] cursor-pointer hover:underline">
-            Satın alın
+            Buy
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
