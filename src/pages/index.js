@@ -5,7 +5,7 @@ import Promo from "@/pages/promo";
 import Slider from "@/pages/slider";
 export default function Home() {
   return (
-    <main id="content" className="relative max-w-[2560px] m-auto z-10">
+    <main id="main" className="relative max-w-[2560px] m-auto z-10">
       <Headline />
       <Headline2 />
       <Headline3 />

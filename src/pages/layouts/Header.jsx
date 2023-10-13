@@ -1,32 +1,14 @@
 import Link from "next/link";
 import { mainMenu } from "../../utils/menu";
+import { TfiClose } from "react-icons/tfi";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { useState } from "react";
 
 export default function Header() {
-  const [subMenuOpen, setSubMenuOpen] = useState(Array(mainMenu.length).fill(false));
+  const [mobile, setMobile] = useState(false);
 
-  const handleMouseEnter = (index) => {
-    const updatedSubMenuOpen = [...subMenuOpen];
-    updatedSubMenuOpen[index] = true;
-    setSubMenuOpen(updatedSubMenuOpen);
-  };
-
-  const handleMouseLeave = (index) => {
-    const updatedSubMenuOpen = [...subMenuOpen];
-    updatedSubMenuOpen[index] = false;
-    setSubMenuOpen(updatedSubMenuOpen);
-  };
-
-  const [showMenu, setShowMenu] = useState(false);
-
-  const [pathD, setPathD] = useState(
-    "M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-  );
-  const handleSecondSvgClick = () => {
-    setShowMenu(!showMenu);
-    setPathD(
-      "M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-    );
+  const menuToggle = () => {
+    setMobile(!mobile);
   };
 
   return (
@@ -42,35 +24,34 @@ export default function Header() {
             </svg>
           </Link>
           {mainMenu.map((m, index) => (
-            <div
+            <Link
               key={index}
-              onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={() => handleMouseLeave(index)}
-              className="relative group"
+              href={m.path}
+              className="text-[12px] font-normal text-[#ffffffcc] cursor-pointer hover:text-white group transition-all"
             >
-              <Link href={m.path} className="text-[12px] font-normal text-[#ffffffcc] cursor-pointer hover:text-white group transition-all">
-                {m.title}
-              </Link>
-              {m.submenu && subMenuOpen[index] && (
+              {m.title}
+              {m.submenu && (
                 <div className="container mx-auto max-w-[1024px]">
-                  <ul className="absolute bg-[#121212] w-full overflow-hidden left-0 pt-4 pb-16 opacity-0 transform scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transition-opacity duration-300 ease-in-out">
-                    {m.submenu.map((subItem, subIndex) => (
-                      <li
-                        key={subIndex}
-                        className="text-base container mx-auto max-w-[1024px] px-10 max-h-[300px]"
-                      >
-                        <h2 className="text-[11px] text-[#e4e4e4cc] font-semibold mt-3 mb-3">
-                          {subItem.subTitle}
-                        </h2>
-                        <span className="text-2xl font-semibold text-[#ffffffcc] hover:text-white transition-all">
-                          {subItem.title}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="absolute bg-[#121212] w-full overflow-hidden left-0 pt-4 pb-16 opacity-0 transform scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transition-opacity duration-300 ease-in-out">
+                    <ul>
+                      {m.submenu.map((subItem, subIndex) => (
+                        <li
+                          key={subIndex}
+                          className="text-base container mx-auto max-w-[1024px] px-10 max-h-[300px]"
+                        >
+                          <h2 className="text-[11px] text-[#e4e4e4cc] font-semibold mt-3 mb-3">
+                            {subItem.subTitle}
+                          </h2>
+                          <span className="text-2xl font-semibold text-[#ffffffcc] hover:text-white transition-all">
+                            {subItem.title}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               )}
-            </div>
+            </Link>
           ))}
           <Link href="/">
             <svg
@@ -140,38 +121,29 @@ export default function Header() {
                   ></path>
                 </svg>
               </li>
-              <li className="cursor-pointer relative z-20">
-                <svg
-                  height="44"
-                  width="25"
-                  viewBox="0 0 16 16"
-                  style={{ color: "white" }}
-                  onClick={handleSecondSvgClick}
-                >
-                  <path fill="currentColor" d={pathD} />
-                </svg>
+              <li className="cursor-pointer">
+                <button className=" text-white mt-3" onClick={menuToggle}>
+                  {mobile ? <TfiClose size={20} /> : <HiOutlineMenuAlt4 size={20} />}
+                </button>
+                {mobile && (
+                  <ul className="bg-[#121212] text-white top-0 left-0 w-full h-screen overflow-y-auto absolute">
+                    {mainMenu.map((m, index) => (
+                      <li>
+                        <Link
+                          href={m.path}
+                          key={index}
+                          className="text-[40px] font-normal text-[#ffffffcc] cursor-pointer hover:text-white transition-colors group px-5"
+                        >
+                          {m.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </li>
             </ul>
           </li>
         </ul>
-        {showMenu && (
-          <ul
-            className={`transition-transform duration-300 ease-in-out ${
-              showMenu
-                ? "transform translate-y-0"
-                : "transform -translate-y-full"
-            } bg-[#121212] text-white fixed top-0 left-0 w-full h-screen overflow-y-auto`}
-          >
-            {mainMenu.map((m, index) => (
-              <li
-                key={index}
-                className="text-[40px] font-normal text-[#ffffffcc] cursor-pointer hover:text-white transition-colors group px-5"
-              >
-                {m.title}
-              </li>
-            ))}
-          </ul>
-        )}
       </div>
     </header>
   );

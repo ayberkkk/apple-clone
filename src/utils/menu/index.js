@@ -7,15 +7,27 @@ export const mainMenu = [
         subTitle: "Store",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/store/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/store/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/store/imac",
+        title: "iMac",
+      },
+      {
+        path: "/store/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/store/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/store/imac",
         title: "iMac",
       },
     ],
@@ -26,6 +38,18 @@ export const mainMenu = [
     submenu: [
       {
         subTitle: "Mac",
+      },
+      {
+        path: "/mac/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/mac/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/mac/imac",
+        title: "iMac",
       },
       {
         path: "/mac/macbook-air",
@@ -60,6 +84,18 @@ export const mainMenu = [
         path: "/ipad/ipad-mini",
         title: "iPad Mini",
       },
+      {
+        path: "/ipad/ipad-pro",
+        title: "iPad Pro",
+      },
+      {
+        path: "/ipad/ipad-air",
+        title: "iPad Air",
+      },
+      {
+        path: "/ipad/ipad-mini",
+        title: "iPad Mini",
+      },
     ],
   },
   {
@@ -68,6 +104,18 @@ export const mainMenu = [
     submenu: [
       {
         subTitle: "iPhone",
+      },
+      {
+        path: "/iphone/iphone-13",
+        title: "iPhone 13",
+      },
+      {
+        path: "/iphone/iphone-12",
+        title: "iPhone 12",
+      },
+      {
+        path: "/iphone/iphone-se",
+        title: "iPhone SE",
       },
       {
         path: "/iphone/iphone-13",
@@ -91,15 +139,27 @@ export const mainMenu = [
         subTitle: "Watch",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/watch/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/watch/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/watch/imac",
+        title: "iMac",
+      },
+      {
+        path: "/watch/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/watch/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/watch/imac",
         title: "iMac",
       },
     ],
@@ -112,99 +172,159 @@ export const mainMenu = [
         subTitle: "AirPods",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/airpods/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/airpods/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/airpods/imac",
+        title: "iMac",
+      },
+      {
+        path: "/airpods/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/airpods/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/airpods/imac",
         title: "iMac",
       },
     ],
   },
   {
-    path: "/tv",
+    path: "/tv-home",
     title: "TV & Home",
     submenu: [
       {
         subTitle: "TV & Home",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/tv-home/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/tv-home/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/tv-home/imac",
+        title: "iMac",
+      },
+      {
+        path: "/tv-home/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/tv-home/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/tv-home/imac",
         title: "iMac",
       },
     ],
   },
   {
-    path: "/eglence",
+    path: "/entertainment",
     title: "Entertainment",
     submenu: [
       {
         subTitle: "Entertainment",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/entertainment/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/entertainment/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/entertainment/imac",
+        title: "iMac",
+      },
+      {
+        path: "/entertainment/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/entertainment/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/entertainment/imac",
         title: "iMac",
       },
     ],
   },
   {
-    path: "/akseauar",
+    path: "/accessories",
     title: "Accessories",
     submenu: [
       {
         subTitle: "Aksesuar",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/accessories/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/accessories/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/accessories/imac",
+        title: "iMac",
+      },
+      {
+        path: "/accessories/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/accessories/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/accessories/imac",
         title: "iMac",
       },
     ],
   },
   {
-    path: "/destek",
+    path: "/support",
     title: "Support",
     submenu: [
       {
         subTitle: "Support",
       },
       {
-        path: "/mac/macbook-air",
+        path: "/support/macbook-air",
         title: "MacBook Air",
       },
       {
-        path: "/mac/macbook-pro",
+        path: "/support/macbook-pro",
         title: "MacBook Pro",
       },
       {
-        path: "/mac/imac",
+        path: "/support/imac",
+        title: "iMac",
+      },
+      {
+        path: "/support/macbook-air",
+        title: "MacBook Air",
+      },
+      {
+        path: "/support/macbook-pro",
+        title: "MacBook Pro",
+      },
+      {
+        path: "/support/imac",
         title: "iMac",
       },
     ],
