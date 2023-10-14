@@ -11,6 +11,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'is1-ssl.mzstatic.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'store.storeimages.cdn-apple.com',
+      },
     ],
   },
 }

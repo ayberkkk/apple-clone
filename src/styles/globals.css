@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #f5f5f7;
+}
+
+@keyframes ribbon-drop {
+    0% {
+        transform: translateY(-100%)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+.ribbon-drop {
+    animation: ribbon-drop .8s ease-in-out forwards;
+}
