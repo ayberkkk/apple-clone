@@ -2,8 +2,8 @@ import Link from "next/link";
 export default function Breadline() {
   return (
     <div>
-      <div className=" bg-white ribbon-drop lg:p-3 p-5">
-        <p className="text-black text-center text-sm  leading-[1.42859] font-normal flex flex-wrap items-center justify-center">
+      <div className="bg-white ribbon-drop lg:p-3 p-5 relative top-10">
+        <p className="text-black text-center text-sm  leading-[1.42859] font-normal flex flex-wrap items-center justify-center py-3">
           Get $200–$650 in credit toward iPhone 15 or iPhone 15 Pro when you
           trade in an iPhone 11 or higher.<sup>3</sup>
           <Link href="/" className="text-blue-500 ml-1 flex items-center hover:underline">

@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 left-0 bg-[#121212] z-50">
+    <header className="fixed w-full top-0 left-0 z-50 backdrop-blur-md bg-[#161616cc]">
       <div className="container mx-auto max-w-[1024px]">
         <ul className="hidden lg:flex items-center justify-center gap-10">
           <Link href="/">
