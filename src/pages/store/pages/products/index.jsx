@@ -1,5 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 export default function Product() {
   return (
     <>
@@ -8,7 +15,7 @@ export default function Product() {
           <div className="max-w-[640px] lg:pt-[80px] pt-[56px] pb-[64px]">
             <h1 className="lg:text-5xl text-[32px] lg:leading-[1.08349] leading-[1.125] font-semibold lg:tracking-[-.003em] tracking-[.004em] text-[#1d1d1f]">
               Store.
-              <span className="lg:text-5xl text-[32px] lg:leading-[1.08349] leading-[1.125] font-semibold lg:tracking-[-.003em] tracking-[.004em text-[#6e6e73]">
+              <span className="lg:text-5xl text-[32px] lg:leading-[1.08349] leading-[1.125] font-semibold lg:tracking-[-.003em] tracking-[.004em] text-[#6e6e73]">
                 The best way to buy the products you love.
               </span>
             </h1>
@@ -67,141 +74,182 @@ export default function Product() {
           </div>
         </div>
       </div>
-      <div className="h-full overflow-y-auto">
-        <div className="inline-flex items-center lg:justify-center lg:gap-10 sm:mt-5">
-          <Link href="/"></Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670959891635"
-              />
+      <div className="h-full overflow-x-hidden lg:mx-36 mx-8 my-6 relative product-store w-[90%]">
+        <Swiper
+          slidesPerView={3}
+          navigation={true}
+          modules={[Navigation]}
+          className="z-30"
+          breakpoints={{
+            480: {
+              slidesPerView: 3,
+            },
+            768: {
+              slidesPerView: 5,
+            },
+            1024: {
+              slidesPerView: 8,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670959891635"
+                />
 
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                Mac
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_US?wid=200&hei=130&fmt=png-alpha&.v=1692971740190"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                iPhone
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                iPad
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1693703822208"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                Apple Watch
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                AirPods
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783380000"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                AirTag
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664628458484"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                Apple TV 4K
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670389216654"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                HomePod
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1692803114952"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                Accessories
-              </p>
-            </div>
-          </Link>
-          <Link href="/">
-            <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
-              <Image
-                className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
-                width={200}
-                height={130}
-                src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-holiday-giftcards-asit-agc-nav-202111?wid=200&hei=130&fmt=png-alpha&.v=1653339351054"
-              />
-              <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
-                Apple Gift Card
-              </p>
-            </div>
-          </Link>
-        </div>
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  Mac
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_US?wid=200&hei=130&fmt=png-alpha&.v=1692971740190"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  iPhone
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  iPad
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1693703822208"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  Apple Watch
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  AirPods
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=200&hei=130&fmt=png-alpha&.v=1625783380000"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  AirTag
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664628458484"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  Apple TV 4K
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670389216654"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  HomePod
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202309?wid=200&hei=130&fmt=png-alpha&.v=1692803114952"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  Accessories
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/">
+              <div className="overflow-hidden rounded-2xl lg:h-[148px] lg:min-w-[136px] px-4 lg:py-2 py-1 h-[120px] min-w-[96px]">
+                <Image
+                  className="block m-auto lg:max-h-[78px] max-h-[60px] w-auto pb-4"
+                  width={200}
+                  height={130}
+                  src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-holiday-giftcards-asit-agc-nav-202111?wid=200&hei=130&fmt=png-alpha&.v=1653339351054"
+                />
+                <p className="text-center text-sm leading-[1.42859] font-semibold text-[#1d1d1f] hover:underline whitespace-nowrap">
+                  Apple Gift Card
+                </p>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/"></Link>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Link href="/"></Link>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );
