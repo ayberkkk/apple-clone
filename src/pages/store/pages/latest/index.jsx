@@ -9,8 +9,8 @@ import "swiper/css/navigation";
 
 export default function Latest() {
   return (
-    <section className="latest w-full pb-10">
-      <div className="pb-4 lg:mx-36 mx-8 my-6">
+    <section className="latest w-full">
+      <div className="pb-4 lg:mx-36 mx-8 mt-6">
         <h2 className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#1d1d1f]">
           The latest.
           <span className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#6e6e73]">
@@ -18,7 +18,7 @@ export default function Latest() {
           </span>
         </h2>
       </div>
-      <div className="h-full overflow-x-hidden relative w-full">
+      <div className="h-full overflow-x-hidden relative w-full pb-6">
         <Swiper
           slidesPerView={1}
           navigation={true}
@@ -39,9 +39,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className="flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] ">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card ">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -67,9 +67,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className="flex lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -95,9 +95,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className=" flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className=" flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -123,9 +123,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36 "
+              className="flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4 "
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -151,9 +151,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className="flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -177,9 +177,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className="flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -205,9 +205,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className="flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -233,9 +233,9 @@ export default function Latest() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 lg:translate-x-36"
+              className="flex lg:h-[29.41176rem] h-[450px] lg:mr-3 lg:translate-x-36 my-4"
             >
-              <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -260,13 +260,15 @@ export default function Latest() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="help pt-10 pb-4 lg:mx-36 mx-8 my-6">
-        <h2 className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#1d1d1f]">
-          The latest.
-          <span className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#6e6e73]">
-            Take a look at what’s new, right now.
-          </span>
-        </h2>
+      <div className="help pb-4 lg:mx-36 mx-8 my-6">
+        <div className="mt-6">
+          <h2 className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#1d1d1f]">
+            Help is here.
+            <span className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#6e6e73]">
+              Whenever and however you need it.
+            </span>
+          </h2>
+        </div>
         <div className="py-4 relative flex items-center">
           <Swiper
             slidesPerView={1}
@@ -283,8 +285,8 @@ export default function Latest() {
             }}
           >
             <SwiperSlide>
-              <Link href="/" className="flex h-[29.41176rem] mr-3">
-                <div className="h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <Link href="/" className="flex lg:h-[29.41176rem] h-[450px] mr-3">
+                <div className="lg:h-[29.41176rem] h-[450px] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                   <div className="w-full">
                     <Image
                       className="w-full h-full object-cover block"
@@ -305,8 +307,8 @@ export default function Latest() {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link href="/" className="flex h-[29.41176rem] mr-3">
-                <div className="h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <Link href="/" className="flex lg:h-[29.41176rem] h-[450px] mr-3">
+                <div className="lg:h-[29.41176rem] h-[450px] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                   <div className="w-full">
                     <Image
                       className="w-full h-full object-cover block"
@@ -331,8 +333,8 @@ export default function Latest() {
               </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <Link href="/" className="h-[29.41176rem] mr-3">
-                <div className="h-[14.11765rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+              <Link href="/" className="lg:h-[29.41176rem] h-[450px] mr-3">
+                <div className="h-[14.11765rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                   <div className="w-full">
                     <Image
                       className="w-full h-full object-cover block"
@@ -347,7 +349,7 @@ export default function Latest() {
                     </p>
                   </div>
                 </div>
-                <div className="h-[14.11765rem] mt-4 flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+                <div className="h-[14.11765rem] mt-4 flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                   <div className="w-full">
                     <Image
                       className="w-full h-full object-cover block"

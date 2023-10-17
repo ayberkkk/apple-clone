@@ -9,8 +9,8 @@ import "swiper/css/navigation";
 
 export default function AppleStore() {
   return (
-    <section className="latest w-full pb-10">
-      <div className="pb-4 lg:mx-36 mx-8 my-6">
+    <section className="latest w-full pb-6">
+      <div className="pb-4 lg:mx-36 mx-8 mt-6">
         <h2 className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#1d1d1f]">
           The Apple Store difference.
           <span className="lg:text-2xl text-[32px] lg:leading-[1.14286] leading-[1.125] font-semibold lg:tracking-[.007em] tracking-[.004em] text-[#6e6e73]">
@@ -18,7 +18,7 @@ export default function AppleStore() {
           </span>
         </h2>
       </div>
-      <div className="h-full overflow-x-hidden relative w-full">
+      <div className="h-full overflow-x-hidden relative w-full pb-6">
         <Swiper
           slidesPerView={1}
           navigation={true}
@@ -40,8 +40,8 @@ export default function AppleStore() {
           }}
         >
           <SwiperSlide>
-            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36">
-              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36 my-4">
+              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full h-12">
                   <svg
                     height="56"
@@ -73,8 +73,8 @@ export default function AppleStore() {
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36">
-              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36 my-4">
+              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full h-12">
                   <svg
                     viewBox="0 0 43 56"
@@ -116,8 +116,8 @@ export default function AppleStore() {
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36">
-              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36 my-4">
+              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full h-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -148,8 +148,8 @@ export default function AppleStore() {
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36">
-              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36 my-4">
+              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full h-12">
                   <svg
                     width="36px"
@@ -198,8 +198,8 @@ export default function AppleStore() {
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36">
-              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36 my-4">
+              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full h-12">
                   <svg
                     height="56"
@@ -228,8 +228,8 @@ export default function AppleStore() {
             </Link>
           </SwiperSlide>
           <SwiperSlide>
-            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36">
-              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)]">
+            <Link href="/" className="flex h-[14.11765rem] mr-3 lg:translate-x-36 my-4">
+              <div className="w-[18.41176rem] h-auto p-5 bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full h-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

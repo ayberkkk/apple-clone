@@ -53,3 +53,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.scale-card:hover {
+    transform: scale3d(1.01, 1.01, 1.01);
+    transition: all .3s cubic-bezier(0, 0, .5, 1);
+}
