@@ -39,9 +39,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto mr-3 lg:translate-x-36 my-4"
+              className="flex lg:w-[23.52941rem] lg:h-[29.41176rem] h-[450px] lg:mx-0 mx-4 lg:translate-x-36 my-4"
             >
-              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[23.52941rem] lg:h-[29.41176rem] h-[450px] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -65,9 +65,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -127,9 +127,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -189,9 +189,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -251,9 +251,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -313,9 +313,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -375,9 +375,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -437,9 +437,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto h-[29.41176rem] mr-3 my-4"
+              className="flex lg:w-[23.52941rem] lg:h-[29.41176rem] h-[29.41176rem] lg:mx-0 mx-4 my-4"
             >
-              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card hover-110 ">
+              <div className="lg:w-[23.52941rem] lg:h-[29.41176rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card hover-110 ">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -487,9 +487,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto mr-3 my-4 lg:translate-x-36"
+              className="flex lg:w-[23.52941rem] lg:h-[29.41176rem] h-[450px] lg:mx-0 mx-4 my-4 lg:translate-x-36"
             >
-              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[23.52941rem] lg:h-[29.41176rem] h-[450px] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -513,9 +513,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -575,9 +575,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -637,9 +637,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -699,9 +699,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -761,9 +761,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -823,9 +823,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] mr-3 my-4 lg:translate-x-60"
+              className="flex h-[29.41176rem] lg:mx-0 mx-4 my-4 lg:translate-x-60"
             >
-              <div className="w-[18.41176rem] h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="lg:w-[18.41176rem] w-full h-[29.41176rem] relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full pt-10 pb-0 m-auto  ">
                   <Image
                     className="w-[230px] table m-auto"
@@ -885,9 +885,9 @@ export default function Accessories() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto h-[29.41176rem] mr-3 my-4"
+              className="flex lg:w-[23.52941rem] lg:h-[29.41176rem] h-[29.41176rem] lg:mx-0 mx-4 my-4"
             >
-              <div className="lg:w-[23.52941rem] w-[309px] lg:h-[29.41176rem] h-[450px] mx-auto h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card hover-110 ">
+              <div className="lg:w-[23.52941rem] lg:h-[29.41176rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"

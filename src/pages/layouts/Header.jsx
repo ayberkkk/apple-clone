@@ -121,10 +121,15 @@ export default function Header() {
                   ></path>
                 </svg>
               </li>
-              <li className="cursor-pointer">
-                <button className=" text-white mt-3" onClick={menuToggle}>
-                  {mobile ? <TfiClose size={20} /> : <HiOutlineMenuAlt4 size={20} />}
-                </button>
+              <li
+                className="cursor-pointer text-white mt-3"
+                onClick={menuToggle}
+              >
+                {mobile ? (
+                  <TfiClose size={20} />
+                ) : (
+                  <HiOutlineMenuAlt4 size={20} />
+                )}
                 {mobile && (
                   <ul className="bg-[#121212] text-white top-0 left-0 w-full h-screen overflow-y-auto absolute">
                     {mainMenu.map((m, index) => (

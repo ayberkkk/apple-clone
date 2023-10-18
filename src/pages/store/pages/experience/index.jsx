@@ -39,9 +39,9 @@ export default function Experience() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex w-[29.41176rem] mr-3 lg:translate-x-36 my-4"
+              className="flex lg:mx-0 mx-4 lg:translate-x-36 my-4"
             >
-              <div className="w-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -65,9 +65,9 @@ export default function Experience() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex w-[29.41176rem] mr-3 lg:translate-x-36 my-4"
+              className="flex lg:mx-0 mx-4 lg:translate-x-36 my-4"
             >
-              <div className="w-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -87,9 +87,9 @@ export default function Experience() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex w-[29.41176rem] mr-3 lg:translate-x-36 my-4"
+              className="flex lg:mx-0 mx-4 lg:translate-x-36 my-4"
             >
-              <div className="w-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -113,9 +113,9 @@ export default function Experience() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex w-[29.41176rem] mr-3 lg:translate-x-36 my-4"
+              className="flex lg:mx-0 mx-4 lg:translate-x-36 my-4"
             >
-              <div className="w-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"
@@ -135,9 +135,9 @@ export default function Experience() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex w-[29.41176rem] mr-3 lg:translate-x-36 my-4"
+              className="flex lg:mx-0 mx-4 lg:translate-x-36 my-4"
             >
-              <div className="w-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
+              <div className="flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
                   <Image
                     className="w-full h-full object-cover block"

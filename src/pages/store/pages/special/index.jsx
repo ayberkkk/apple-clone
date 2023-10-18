@@ -39,7 +39,7 @@ export default function Special() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4"
+              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4 mx-4"
             >
               <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
@@ -65,7 +65,7 @@ export default function Special() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4"
+              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4 mx-4"
             >
               <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
@@ -91,7 +91,7 @@ export default function Special() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4"
+              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4 mx-4"
             >
               <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
@@ -117,7 +117,7 @@ export default function Special() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4"
+              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4 mx-4"
             >
               <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
@@ -143,7 +143,7 @@ export default function Special() {
           <SwiperSlide>
             <Link
               href="/"
-              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4"
+              className="flex h-[29.41176rem] lg:mr-3 lg:translate-x-36 my-4 mx-4"
             >
               <div className="w-[23.52941rem] h-[29.41176rem] flex flex-row justify-center relative overflow-hidden bg-white rounded-[18px] shadow-[2px_4px_12px_rgba(0,0,0,.08)] hover:shadow-[2px_4px_16px_rgba(0,0,0,.16)] scale-card">
                 <div className="w-full">
